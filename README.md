@@ -4,7 +4,7 @@
 
 ## Application images
 ### default search: Toronto
-![](./markdown-photos/1.png)
+<!-- ![](./markdown-photos/1.png) -->
 
 ### Searched: Ottawa
 ![](./markdown-photos/2.png)
