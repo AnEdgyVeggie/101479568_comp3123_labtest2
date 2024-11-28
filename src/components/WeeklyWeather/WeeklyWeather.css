@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../../assets/fonts/Roboto.ttf");
+}
+
+#temp-view {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    width: 800px;
+}
+
+.small-temp {
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+img {
+    width: 56px
+}
+
+.single-temp-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.weather-section:nth-child(even) {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
